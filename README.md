@@ -8,12 +8,12 @@ Hardware requirements:
 
 Software requirements:
 A. Raspberry pi setup
-  1. Python3 installed
-  2. Pip install
+  1. Install Python3
+  2. Install PIP
         
     sudo apt install python3-pip
 
-  3. I2C install
+  3. Install I2C tools
 
     sudo apt install -y i2c-tools python3-smbus
         
@@ -30,6 +30,10 @@ A. Raspberry pi setup
      >>> Humidity :  42.01362428945469 %    
     
 B. Postgresql DB setup
-  1. sdfasdf
-  2. sdfsadf
+  1. Install the prerequsisites for building the psycopg2
+  
+    sudo apt install libpq-dev python3-dev
 
+  2. Install psycopg2
+
+    sudo pip3 install psycopg2
